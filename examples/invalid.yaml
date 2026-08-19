@@ -1,0 +1,5 @@
+name: LocalKit 示例
+features:
+  - JSON
+  - YAML
+ invalidIndent: true

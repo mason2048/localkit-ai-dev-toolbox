@@ -1,0 +1,45 @@
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+.npm-cache/
+.vite/
+.cache/
+artifacts/
+reports/
+*.tsbuildinfo
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+
+# Logs and packaged application artifacts
+*.log
+*.lcov
+*.app
+*.dmg
+*.pkg
+*.msi
+*.exe
+*.AppImage
+*.deb
+*.rpm
+*.tar
+*.tgz
+
+# Operating-system and editor state
+.DS_Store
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,13 @@
+[
+  {
+    "schema": "localkit.redaction-rule/v1",
+    "id": "custom-001",
+    "label": "内部工号",
+    "enabled": true,
+    "priority": 60,
+    "matcher": {
+      "kind": "mask",
+      "value": "EMP-#####"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+name: Feature request
+description: Propose a bounded LocalKit improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem
+      description: Describe the local workflow and who is affected.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Include input, output, limits, failure behavior, and download semantics.
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy, offline, and bundle impact
+      description: Explain network, persistence, Service Worker, mobile, and first-load implications.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: The proposal keeps inputs local and does not require executable plugins or credential storage.
+          required: true

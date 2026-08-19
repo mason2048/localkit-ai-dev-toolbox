@@ -1,0 +1,21 @@
+{
+  "schema": "localkit.skill-policy/v1",
+  "rules": [
+    {
+      "id": "require-version",
+      "level": "warning",
+      "check": {
+        "kind": "frontmatter-required",
+        "key": "version"
+      }
+    },
+    {
+      "id": "require-license",
+      "level": "warning",
+      "check": {
+        "kind": "required-file",
+        "path": "LICENSE"
+      }
+    }
+  ]
+}

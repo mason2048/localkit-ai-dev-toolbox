@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "0.1",
+  "packageId": "5b7714a4-70fc-4e8c-a4f1-a8d8e0c9f203",
+  "name": "localkit-example",
+  "kind": "rule",
+  "createdAt": "2026-08-12T15:00:00Z",
+  "producer": {
+    "name": "localkit",
+    "version": "0.2.0"
+  },
+  "items": [
+    {
+      "id": "local-processing",
+      "type": "instruction",
+      "title": "本地处理",
+      "content": "输入只在浏览器本地处理。",
+      "scope": "project",
+      "source": {
+        "uri": "file:///README.md",
+        "revision": "sha256:3d5a4b08fb48c663fbdff3d2e288cc9d",
+        "locator": "安全与隐私边界"
+      },
+      "validity": {
+        "observedAt": "2026-08-12T15:00:00Z",
+        "expiresAt": null,
+        "confidence": 1
+      },
+      "sensitivity": "public",
+      "tags": ["privacy"]
+    }
+  ],
+  "warnings": []
+}

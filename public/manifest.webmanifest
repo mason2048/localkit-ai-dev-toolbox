@@ -1,0 +1,10 @@
+{
+  "name": "LocalKit · AI 开发工具箱",
+  "short_name": "LocalKit",
+  "description": "默认离线、本地处理的 AI 开发检查工具",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#f7f8fa",
+  "icons": []
+}

@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a reproducible LocalKit defect with synthetic data.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include real credentials, private prompts, customer data, proprietary Skills, or browser profiles. Report security issues privately.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: "0.2.0 or commit SHA"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "OS, browser/version, viewport, installed PWA or tab"
+    validations:
+      required: true
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Affected surface
+      options:
+        - JSON / Context Package
+        - YAML
+        - Prompt Diff
+        - Token Counter
+        - Redaction
+        - Skill Validator
+        - PWA / offline / download
+        - Mobile navigation
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction with synthetic input
+      description: Include the smallest safe steps and expected/actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostics
+      description: Do not attach storage exports, real downloads, source files, paths, or secrets.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety check
+      options:
+        - label: I used synthetic data and removed all private content.
+          required: true
+        - label: This is not a vulnerability report.
+          required: true

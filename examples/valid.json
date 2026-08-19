@@ -1,0 +1,5 @@
+{
+  "name": "LocalKit 示例",
+  "localOnly": true,
+  "tools": ["json", "yaml", "diff", "tokens", "redact", "skill"]
+}

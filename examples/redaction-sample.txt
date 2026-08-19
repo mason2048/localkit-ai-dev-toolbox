@@ -1,0 +1,4 @@
+以下全部是用于测试检测规则的虚构数据：
+邮箱：demo@example.com
+电话：13800138000
+访问令牌：Bearer localkit-example-token-1234567890
